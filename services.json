@@ -6,17 +6,17 @@
 {
 "name": "Main Website",
 "type": "Website",
-"uptime": "100%",
-"description": "Public site",
-"last_checked_ago": "43m ago",
+"uptime": "0%",
+"description": "Public site, DOWN",
+"last_checked_ago": "1m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 },
 {
 "name": "CAD/Portal",
 "type": "Website",
-"uptime": "99.8%",
-"description": "CAD and portal",
-"last_checked_ago": "43m ago",
+"uptime": "0%",
+"description": "CAD and portal, DOWN",
+"last_checked_ago": "1m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 }
 ]
