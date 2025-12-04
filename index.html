@@ -1,14 +1,32 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>MSRP - Service Status</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>MSRP - All Services</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Service Status</h1>
+<header class="topbar">
+<div class="brand">
+<div class="logo"></div>
+<h1>MSRP - All Services</h1>
+</div>
+<div class="status-banner">
+<div class="banner-icon">🔧</div>
+<div class="banner-text">Under Maintenance</div>
+</div>
+</header>
 
-  <div id="services"></div>
 
-  <script src="script.js"></script>
+<main class="container">
+<p class="lead">Welcome to the official <strong>MSRP</strong>'s status page. This site gets updated automatically every 5 minutes. If a service is experiencing issues you'll see the color change. The Development Department gets notified when a service is down.</p>
+
+
+<div id="board"></div>
+</main>
+
+
+<script src="script.js"></script>
 </body>
 </html>
