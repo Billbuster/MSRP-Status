@@ -1,85 +1,99 @@
 /*
 script.js
-- loads services.json
-- renders categories and services
-- uses `history` array in each service to draw the tiny bars
+Loads services.json, renders categories and services,
+and draws the uptime history bars.
 */
 
-
 async function load() {
-const res = await fetch('services.json');
-const data = await res.json();
-renderBoard(data);
+  const res = await fetch('services.json');
+  const data = await res.json();
+  renderBoard(data);
 }
 
+function renderBoard(data) {
+  const board = document.getElementById('board');
+  board.innerHTML = '';
 
-function renderBoard(data){
-const board = document.getElementById('board');
-board.innerHTML='';
+  data.categories.forEach(cat => {
+    const section = document.createElement('section');
+    section.className = 'category';
 
+    const title = document.createElement('h2');
+    title.textContent = cat.name;
 
-data.categories.forEach(cat => {
-const section = document.createElement('section');
-section.className='category';
+    const card = document.createElement('div');
+    card.className = 'card';
 
+    const servicesList = document.createElement('div');
+    servicesList.className = 'services-list';
 
-const title = document.createElement('h2');
-title.textContent = cat.name;
+    // Loop services in this category
+    cat.services.forEach(srv => {
+      const item = document.createElement('div');
+      item.className = 'service-item';
 
+      // LEFT SIDE
+      const left = document.createElement('div');
+      left.className = 'service-meta';
 
-const card = document.createElement('div');
-card.className='card';
+      const pct = document.createElement('span');
+      pct.className = 'pct';
+      pct.textContent = `${srv.uptime}%`;
 
+      const name = document.createElement('div');
+      name.className = 'service-name';
+      name.textContent = srv.name;
 
-const servicesList = document.createElement('div');
-servicesList.className='services-list';
+      const tag = document.createElement('div');
+      tag.className = 'tag';
+      tag.textContent = srv.type;
 
+      const sub = document.createElement('div');
+      sub.className = 'service-sub';
+      sub.textContent = srv.description || '';
 
-cat.services.forEach(srv => {
-const item = document.createElement('div');
-item.className='service-item';
+      left.appendChild(pct);
+      left.appendChild(name);
+      left.appendChild(tag);
+      left.appendChild(sub);
 
+      // RIGHT SIDE — timeline bars
+      const right = document.createElement('div');
+      right.className = 'timeline';
 
-const left = document.createElement('div');
-left.className='service-meta';
+      const barsWrap = document.createElement('div');
+      barsWrap.className = 'bars';
 
+      const barsInner = document.createElement('div');
+      barsInner.className = 'bars-inner';
 
-const pct = document.createElement('span');
-pct.className='pct';
-pct.textContent = `${srv.uptime}%`;
+      // render tiny bars using srv.history
+      if (srv.history && Array.isArray(srv.history)) {
+        srv.history.forEach(val => {
+          const bar = document.createElement('div');
+          bar.className = 'bar';
+          bar.style.background = val === 1 ? '#2ecc71' : '#e74c3c'; // green or red
+          barsInner.appendChild(bar);
+        });
+      }
 
+      barsWrap.appendChild(barsInner);
+      right.appendChild(barsWrap);
 
-const name = document.createElement('div');
-name.className='service-name';
-name.textContent = srv.name;
+      // Put left + right inside item
+      item.appendChild(left);
+      item.appendChild(right);
 
+      // Add item to list
+      servicesList.appendChild(item);
+    });
 
-const tag = document.createElement('div');
-tag.className='tag';
-tag.textContent = srv.type;
+    card.appendChild(servicesList);
+    section.appendChild(title);
+    section.appendChild(card);
+    board.appendChild(section);
+  });
+}
 
-
-const sub = document.createElement('div');
-sub.className='service-sub';
-sub.textContent = srv.description || '';
-
-
-left.appendChild(pct);
-left.appendChild(name);
-left.appendChild(tag);
-left.appendChild(sub);
-
-
-const right = document.createElement('div');
-right.className='timeline';
-
-
-const barsWrap = document.createElement('div');
-barsWrap.className='bars';
-
-
-const barsInner = document.createElement('div');
-barsInner.className='bars-inner';
-
-
-});
+// Load on startup
+load();
