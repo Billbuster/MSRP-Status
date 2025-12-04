@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+
+.service {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.up { background: #1f8b24; }
+.down { background: #b81c1c; }
+.warning { background: #e6b800; }
