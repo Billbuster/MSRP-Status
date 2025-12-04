@@ -6,7 +6,7 @@
 {
 "name": "Main Website",
 "type": "Website",
-"uptime": "0%",
+"uptime": "0",
 "description": "Public site, DOWN",
 "last_checked_ago": "1m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
@@ -14,7 +14,7 @@
 {
 "name": "CAD/Portal",
 "type": "Website",
-"uptime": "0%",
+"uptime": "0",
 "description": "CAD and portal, DOWN",
 "last_checked_ago": "1m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
@@ -27,7 +27,7 @@
 {
 "name": "Main Patrol Server",
 "type": "Game Server",
-"uptime": "0%",
+"uptime": "0",
 "description": "Patrol - EU",
 "last_checked_ago": "1m ago",
 "history": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
@@ -35,7 +35,7 @@
 {
 "name": "Extended Training Server",
 "type": "Game Server",
-"uptime": "99.69%",
+"uptime": "99.69",
 "description": "Training",
 "last_checked_ago": "1h ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
@@ -48,7 +48,7 @@
 {
 "name": "Primary Bot",
 "type": "Bot",
-"uptime": "100%",
+"uptime": "100",
 "description": "Main Discord bot",
 "last_checked_ago": "12m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
@@ -61,7 +61,7 @@
 {
 "name": "API",
 "type": "API",
-"uptime": "99.95%",
+"uptime": "99.95",
 "description": "REST API",
 "last_checked_ago": "5m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
@@ -69,7 +69,7 @@
 {
 "name": "Database",
 "type": "Database",
-"uptime": "99.9%",
+"uptime": "99.9",
 "description": "Primary DB",
 "last_checked_ago": "8m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
