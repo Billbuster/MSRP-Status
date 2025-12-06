@@ -72,7 +72,16 @@ function renderBoard(data) {
         srv.history.forEach(val => {
           const bar = document.createElement('div');
           bar.className = 'bar';
-          bar.style.background = val === 1 ? '#2ecc71' : '#e74c3c'; // green or red
+
+          // 1 = UP, 0 = DOWN, 3 = PARTIAL OUTAGE
+          if (val === 1) {
+            bar.style.background = 'var(--accent)'; // GREEN
+          } else if (val === 0) {
+            bar.style.background = 'var(--red)';    // RED
+          } else if (val === 3) {
+            bar.style.background = 'var(--yellow)'; // YELLOW PARTIAL
+          }
+
           barsInner.appendChild(bar);
         });
       }
