@@ -18,7 +18,13 @@
 "description": "CAD and portal, DOWN",
 "last_checked_ago": "1m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-}
+},
+"name": "MSRP Status Site",
+"type": "Website",
+"uptime": "100%",
+"description": "Status of all MSRP Assets",
+"last_checked_ago": "1m ago",
+"history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]  
 ]
 },
 {
