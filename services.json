@@ -7,7 +7,7 @@
 "name": "Main Website",
 "type": "Website",
 "uptime": "0",
-"description": "Public site, DOWN",
+"description": "Public site, BUILD IN PROGRESS",
 "last_checked_ago": "1m ago",
 "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 },
@@ -17,7 +17,7 @@
 "uptime": "0",
 "description": "CAD and portal, DOWN",
 "last_checked_ago": "1m ago",
-"history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+"history": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
 },
 "name": "MSRP Status Site",
 "type": "Website",
