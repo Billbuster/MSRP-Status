@@ -1,86 +1,91 @@
 {
-"categories": [
-{
-"name": "Sites",
-"services": [
-{
-"name": "Main Website",
-"type": "Website",
-"uptime": "0",
-"description": "Public site, BUILD IN PROGRESS",
-"last_checked_ago": "1m ago",
-"history": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]
-},
-{
-"name": "CAD/Portal",
-"type": "Website",
-"uptime": "0",
-"description": "CAD and portal, DOWN",
-"last_checked_ago": "1m ago",
-"history": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
-},
-"name": "MSRP Status Site",
-"type": "Website",
-"uptime": "100%",
-"description": "Status of all MSRP Assets",
-"last_checked_ago": "1m ago",
-"history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]  
-]
-},
-{
-"name": "Game Servers",
-"services": [
-{
-"name": "Main Patrol Server",
-"type": "Game Server",
-"uptime": "0",
-"description": "Patrol - EU",
-"last_checked_ago": "1m ago",
-"history": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
-},
-{
-"name": "Extended Training Server",
-"type": "Game Server",
-"uptime": "99.69",
-"description": "Training",
-"last_checked_ago": "1h ago",
-"history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-}
-]
-},
-{
-"name": "Discord Bots",
-"services": [
-{
-"name": "Primary Bot",
-"type": "Bot",
-"uptime": "100",
-"description": "Main Discord bot",
-"last_checked_ago": "12m ago",
-"history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-}
-]
-},
-{
-"name": "Other Services",
-"services": [
-{
-"name": "API",
-"type": "API",
-"uptime": "99.95",
-"description": "MAIN API",
-"last_checked_ago": "5m ago",
-"history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-},
-{
-"name": "Database",
-"type": "Database",
-"uptime": "99.9",
-"description": "Primary DB",
-"last_checked_ago": "8m ago",
-"history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
-}
-]
-}
-]
+  "categories": [
+    {
+      "name": "Sites",
+      "services": [
+        {
+          "name": "Main Website",
+          "type": "Website",
+          "uptime": "0",
+          "description": "Public site, BUILD IN PROGRESS",
+          "last_checked_ago": "1m ago",
+          "history": [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3]
+        },
+        {
+          "name": "CAD/Portal",
+          "type": "Website",
+          "uptime": "0",
+          "description": "CAD and portal, DOWN",
+          "last_checked_ago": "1m ago",
+          "history": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
+        },
+        {
+          "name": "MSRP Status Site",
+          "type": "Website",
+          "uptime": "100%",
+          "description": "Status of all MSRP Assets",
+          "last_checked_ago": "1m ago",
+          "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+        }
+      ]
+    },
+
+    {
+      "name": "Game Servers",
+      "services": [
+        {
+          "name": "Main Patrol Server",
+          "type": "Game Server",
+          "uptime": "0",
+          "description": "Patrol - EU",
+          "last_checked_ago": "1m ago",
+          "history": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
+        },
+        {
+          "name": "Extended Training Server",
+          "type": "Game Server",
+          "uptime": "99.69",
+          "description": "Training",
+          "last_checked_ago": "1h ago",
+          "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+        }
+      ]
+    },
+
+    {
+      "name": "Discord Bots",
+      "services": [
+        {
+          "name": "Primary Bot",
+          "type": "Bot",
+          "uptime": "100",
+          "description": "Main Discord bot",
+          "last_checked_ago": "12m ago",
+          "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+        }
+      ]
+    },
+
+    {
+      "name": "Other Services",
+      "services": [
+        {
+          "name": "API",
+          "type": "API",
+          "uptime": "99.95",
+          "description": "MAIN API",
+          "last_checked_ago": "5m ago",
+          "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+        },
+        {
+          "name": "Database",
+          "type": "Database",
+          "uptime": "99.9",
+          "description": "Primary DB",
+          "last_checked_ago": "8m ago",
+          "history": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+        }
+      ]
+    }
+  ]
 }
