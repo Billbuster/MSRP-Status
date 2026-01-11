@@ -69,10 +69,27 @@ color:#dbe3e6;
 .time-legend{font-size:12px;color:var(--muted);margin-top:6px;width:100%;display:flex;justify-content:space-between}
 
 /* footer */
-.site-footer{border-top:1px solid rgba(255,255,255,0.03);padding:20px 0;margin-top:40px}
-.footer-inner{display:flex;align-items:center;justify-content:space-between}
-.logo-sm{width:36px;height:36px;border-radius:8px;margin-right:12px}
-.footer-nav{display:flex;gap:12px;color:var(--muted)}
+.footer-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #1f6feb; /* blue button */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.footer-button:hover {
+  background: #388bfd;
+  transform: translateY(-1px);
+}
+
+.footer-button:active {
+  transform: translateY(0);
+}
+
 
 @media (max-width:880px){
 .timeline{width:220px}
