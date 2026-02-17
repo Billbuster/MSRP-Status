@@ -48,7 +48,7 @@
       "name": "Discord Bots",
       "services": [
         {
-          "name": "Primary BCRP ADMIN Bot",
+          "name": "Primary MSRP ADMIN Bot",
           "type": "Bot",
           "uptime": "100",
           "description": "Main Discord bot",
